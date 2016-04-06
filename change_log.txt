@@ -1,0 +1,2 @@
+{11/16/2015 - 1.4}
+Update - changed leaf icon from editor,Fixed script tag removal from banner ad area issue,  duplicate posts of different categories

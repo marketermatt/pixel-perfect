@@ -1,0 +1,261 @@
+/*************************************************************************/
+/* Widget Styles */
+/*************************************************************************/
+
+/*************************************************************************/
+/* Widget Youtube Video */
+/*************************************************************************/
+.az-videocontainerwrap {
+	margin-bottom: 100px;
+	padding-bottom: 100px;
+}
+
+.az-VideoContainer {
+	padding-bottom: 15px;
+}
+
+/*************************************************************************/
+/* Widget Calendar */
+/*************************************************************************/
+.widget_calendar h3.widgettitle {
+	display: none;
+}
+	
+.widget_calendar h4 {
+	display: none;
+}
+	
+.widget_calendar table#wp-calendar {
+	border: 1px solid #e0e0e0;	
+	width: 100%;
+	margin: 0px !important;
+}
+	
+.widget_calendar tbody .pad {
+	background-color: #fff;
+}
+	
+.widget_calendar table td {
+	border: none
+}
+
+.widget_calendar table#wp-calendar>tbody>tr>td>a {
+	color: #222 !important;
+}
+		
+.widget_calendar table#wp-calendar>tbody>tr>td>a:hover {
+	color: #999 !important;
+	background: none;
+}
+		
+.widget_calendar table#wp-calendar caption {
+	font-size: 16px; 
+	margin: 5px 0px 10px 0px;
+	text-shadow: none;
+}
+
+.widget_calendar thead>tr>th {
+	width: 14.2857%; 
+	padding: 5px 0px 6px 0px; 
+	text-align: center; 
+	background-color: #666 !important;
+	border: 1px solid #e0e0e0;	
+	color: #444; 
+	font-weight: 400;
+}
+
+.widget_calendar tbody>tr>td {
+	width: 14.2857%; 
+	padding: 5px 0px 6px 0px; 
+	text-align:center;	
+	border: 1px solid #e0e0e0; 
+	background: #eee;
+}
+
+.widget_calendar table tr:last-child td {
+	border: 1px solid #e0e0e0; 
+}
+
+.widget_calendar tfoot>tr>td>a, tfoot>tr>td>a:link, tfoot>tr>td>a:visited, tfoot>tr>td>a:hover, tfoot>tr>td>a:active {
+	height: 20px;
+	color: #666 !important;
+}
+
+.widget_calendar tfoot>tr>td#prev {
+	width: 58px;
+	height: 20px;
+	text-align: left;
+	border: none;
+	background-color: #ffffff;
+}
+
+.widget_calendar tfoot>tr>td#next {
+	width: 58px; 
+	height: 20px;	
+	text-align: right; 
+	border: none;	
+	background-color: #ffffff;
+}
+		
+.widget_calendar tfoot>tr>td#prev a:hover, tfoot>tr>td#next a:hover {
+	background: none;
+}
+
+.tagcloud, .textwidget {
+	padding: 3px 3px 3px 3px;
+
+}
+
+/*************************************************************************/
+/* Latest Post Widget */
+/*************************************************************************/
+#az-sidebarpostswrap {
+	float: left;
+	width: 100%;
+}
+
+ul.az-sidebarposts {
+	float: left;
+	display: block;
+	list-style: none;
+	font-size: 1em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0px;
+	border: none !important;
+}
+
+ul.az-sidebarposts li {
+	width: 100%;
+	float: left;
+	padding: 5px 0px !important;
+	margin: 0px;
+	background: none !important;
+	line-height: 16px;
+	border: none !important;
+}
+
+#az-sidebarpostswrap ul li a:before, #az-sidebarpostswrap ul li ul li a:before {
+	content: none !important;
+}
+
+#az-sidebarpostswrap h3 {
+	line-height: 24px;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.az-SmallThumbnail {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 0px 3px 3px 0px;
+}
+
+/*************************************************************************/
+/* Widget Flickr */
+/*************************************************************************/
+#az-flickrwrap ul {
+	list-style: none;
+	background: none !important;
+	padding: 0px !important;
+	margin: 0px  !important;
+}
+
+#az-flickrwrap ul li {
+	list-style: none;
+	background: none !important;
+	float: left;
+	padding: 0px !important;
+	margin: 0px !important;
+	border: none !important;
+}
+
+#az-flickrwrap ul li img {
+	border: none;
+	width: 66px;
+	height: 55px;
+	float: left;
+	margin: 0 4px 4px 0;
+	padding: 0;
+}
+
+#az-flickrwrap ul li img:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#az-flickrwrap ul li a:before, #az-flickrwrap ul li ul li a:before {
+	content: none !important;
+}
+
+/*************************************************************************/
+/* Widget Facebook Fan Box */
+/*************************************************************************/
+.az-facebookfanbox {
+	overflow: hidden;
+}
+
+/*************************************************************************/
+/* Widget Recent Tweets */
+/*************************************************************************/
+#az-recenttwitterwrap {
+
+}
+
+#az-recenttwitterwrap ul li.az-twitteritem:before {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 14px;
+    line-height: 20px;
+    width: 14px;
+    height: 14px;
+    speak: none;
+	text-shadow: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-o-transform: scale(1);
+	text-rendering: optimizeLegibility;
+}
+
+#az-sidebar li.az-twitteritem:before {
+    content: '\f099';
+    width: 24px;
+}
+
+#az-recenttwitterwrap li.az-twitteritem a:before  {
+	content: none;
+}
+
+#az-recenttwitterwrap .az-timestamp {
+	font-size: 0.9em;
+}
+
+
+/*************************************************************************/
+/* Widget Recent Tweets */
+/*************************************************************************/
+.az-ads125 {
+
+}
+
+.az-adcell {
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+
+/*************************************************************************/
+/* Widget Recent Tweets */
+/*************************************************************************/
+#az-contacts .fa {
+	width: 20px;
+}
+
+#az-contacts .az-ctitle {
+	font-size: 1.2em;
+}
